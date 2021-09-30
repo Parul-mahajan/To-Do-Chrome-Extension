@@ -58,12 +58,12 @@ li {
   /* border-bottom: 1px solid #cfcbcc; */
   line-height: 1.5;
   padding: 8px 0;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 li:before {
   content: "\25A1";
   padding: 10px 10px;
-  font-size: 20px;
+  font-size: 1rem;
 }
 li:hover {
   text-decoration: line-through;
@@ -78,7 +78,7 @@ li:last-child {
 .checked:before {
   content: "\2713";
   padding: 10px 10px;
-  /* font-size: 20px; */
+  font-size: 1rem;
 }
 .checked:hover {
   text-decoration: none;
@@ -111,7 +111,7 @@ li:last-child {
   float: right;
   padding: 0px !important;
   background-color: transparent;
-  color:#c74868;
+  color: #c74868;
 }
 
 .material-icons {
@@ -128,7 +128,7 @@ form {
 }
 
 button {
-  background-color:#c74868;
+  background-color: #c74868;
   border-radius: 10px;
   color: #cfcbcc;
   border: 0ch;
@@ -152,6 +152,6 @@ button:hover {
   color: rgb(121, 114, 119) !important;
 }
 
-#hi:hover{
+#hi:hover {
   color: rgb(121, 114, 119) !important;
 }
