@@ -1,0 +1,157 @@
+html {
+  min-width: 450px;
+  background: url(2.webp);
+  padding: 3%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  color: #444;
+  font-family: "Helvetica", arial, sans-serif;
+}
+
+.container {
+  background: rgba(188, 188, 188, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  max-width: 400px;
+  width: 100%;
+  display: table;
+  padding: 4%;
+  margin: 0 auto;
+}
+
+input {
+  border: none;
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  padding: 8px 0 8px 10px;
+  border-bottom: 1px solid #cfcbcc;
+  outline: 0;
+  margin-right: 1.3%;
+  border-radius: 10px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 0px;
+  line-height: 1;
+}
+h2 {
+  color: gray;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  color: #c74868;
+  font-weight: 400;
+  /* border-bottom: 1px solid #cfcbcc; */
+  line-height: 1.5;
+  padding: 8px 0;
+  font-size: 1.5rem;
+}
+li:before {
+  content: "\25A1";
+  padding: 10px 10px;
+  font-size: 20px;
+}
+li:hover {
+  text-decoration: line-through;
+  cursor: pointer;
+}
+li:last-child {
+  border-bottom: none;
+}
+.checked {
+  color: rgb(110, 109, 109);
+}
+.checked:before {
+  content: "\2713";
+  padding: 10px 10px;
+  /* font-size: 20px; */
+}
+.checked:hover {
+  text-decoration: none;
+}
+.checked:after {
+  content: "";
+  color: tomato;
+  text-align: right;
+  float: right;
+}
+
+.dark-mode {
+  background: rgba(14, 30, 87, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  color: hsla(34, 100%, 96%, 0.849);
+}
+
+.back-dark-mode {
+  background-color: black;
+  background: url(desk.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: hsla(34, 59%, 86%, 0.849);
+}
+
+#hi {
+  float: right;
+  padding: 0px !important;
+  background-color: transparent;
+  color:#c74868;
+}
+
+.material-icons {
+  font-size: 30px !important;
+}
+form {
+  display: flex;
+}
+
+.text {
+  background-color: rgba(6, 7, 14, 0.788);
+  color: aliceblue;
+  border: black;
+}
+
+button {
+  background-color:#c74868;
+  border-radius: 10px;
+  color: #cfcbcc;
+  border: 0ch;
+  padding: 2%;
+  cursor: pointer;
+}
+#button {
+  margin-left: -30px;
+  border-radius: 0px 10px 10px 0;
+  padding-right: 3%;
+}
+
+button:hover {
+  background-color: rgb(121, 114, 119);
+}
+
+.mode {
+  color: #c74868 !important;
+}
+.mode:hover {
+  color: rgb(121, 114, 119) !important;
+}
+
+#hi:hover{
+  color: rgb(121, 114, 119) !important;
+}
